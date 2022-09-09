@@ -1,0 +1,38 @@
+@import "./register.scss";
+@import "./questions.scss";
+@import "./ask-question.scss";
+@import "./single-question.scss";
+
+body {
+    height: 100vh;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease-out;
+    }
+}
+
+textarea {
+    resize: none;
+}
+
+.logout-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-decoration: none;
+    width: 70px;
+    height: 30px;
+    background-color: lightblue;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}

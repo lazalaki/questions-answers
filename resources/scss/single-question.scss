@@ -1,0 +1,43 @@
+.answers-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.single-answer {
+    min-height: 70px;
+    height: auto;
+}
+
+.answer-textarea {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.answer-create {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.answer-question-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px;
+    margin-right: 10px;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease-out;
+    }
+}
+
+.answer-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
